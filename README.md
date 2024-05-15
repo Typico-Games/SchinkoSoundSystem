@@ -4,9 +4,19 @@ SchinkoSoundSystem (SSS) is my own all-generic tool for sound handling. Custom p
 ## Game Driving Parameters
 
 - Intensity
-- Stamina (oculus fitness?)
+- Stamina [#OculusCallorieCounter]
 - Velocity
 - JumpingAlpha
 
-## Interaction System overview
-- 
+## How it works?
+- RecordedStates is a config of SSS that gets a name, special ability in metasounds, its own descendant class.
+- TArray<FSSSRecordedState>:
+- :: Atmosphere
+- :: JazzDay
+- ::
+
+- States are TMap<FName, FSomeStruct>
+
+## OculusCallorieCounter
+- find out API from oculus to count peoples callories maan.
+  
